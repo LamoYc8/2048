@@ -1,0 +1,75 @@
+2018-08-06T09:37:09.132Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-06T09:37:09.136Z - normal: checking language setting...
+2018-08-06T09:37:09.136Z - normal: Language: zh
+2018-08-06T09:37:10.022Z - error: { Error: getaddrinfo ENOTFOUND creator-api.cocos.com creator-api.cocos.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'creator-api.cocos.com',
+  host: 'creator-api.cocos.com',
+  port: 443 }
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/share/login/lib/user.js:1:1441
+    at ClientRequest.Https.request.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/share/login/lib/network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at connectErrorNT (net.js:1032:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-08-06T09:37:10.027Z - normal: failed to connect login server... skipping login
+2018-08-06T09:37:10.028Z - normal: Check project /Users/mayc98/Downloads/2048_new
+2018-08-06T09:37:10.029Z - success: protocol editor-framework registered
+2018-08-06T09:37:10.029Z - success: protocol app registered
+2018-08-06T09:37:10.030Z - success: protocol theme registered
+2018-08-06T09:37:10.030Z - success: protocol packages registered
+2018-08-06T09:37:10.030Z - success: protocol unpack registerred
+2018-08-06T09:37:10.030Z - success: protocol disable-commonjs registerred
+2018-08-06T09:37:10.030Z - normal: Initializing Cocos2d
+2018-08-06T09:37:10.276Z - normal: Initializing Asset Database
+2018-08-06T09:37:10.313Z - success: protocol uuid registerred
+2018-08-06T09:37:10.313Z - success: protocol db registerred
+2018-08-06T09:37:10.313Z - success: protocol thumbnail registerred
+2018-08-06T09:37:10.313Z - normal: Loading editor/builtin packages
+2018-08-06T09:37:10.336Z - success: anysdk loaded
+2018-08-06T09:37:10.459Z - success: assets loaded
+2018-08-06T09:37:10.463Z - success: builder loaded
+2018-08-06T09:37:10.466Z - success: cocos-analytics loaded
+2018-08-06T09:37:10.470Z - success: console loaded
+2018-08-06T09:37:10.496Z - success: fb-instant-games loaded
+2018-08-06T09:37:10.501Z - success: hierarchy loaded
+2018-08-06T09:37:10.507Z - success: inspector loaded
+2018-08-06T09:37:10.508Z - success: keystore loaded
+2018-08-06T09:37:10.514Z - success: node-library loaded
+2018-08-06T09:37:10.516Z - success: package-asset loaded
+2018-08-06T09:37:10.518Z - success: preferences loaded
+2018-08-06T09:37:10.521Z - success: project-exporter loaded
+2018-08-06T09:37:10.537Z - success: project-importer loaded
+2018-08-06T09:37:10.540Z - success: project-settings loaded
+2018-08-06T09:37:10.545Z - success: ui-kit loaded
+2018-08-06T09:37:10.551Z - success: ui-grid loaded
+2018-08-06T09:37:10.555Z - success: scene loaded
+2018-08-06T09:37:10.557Z - success: sprite-editor loaded
+2018-08-06T09:37:10.561Z - success: store loaded
+2018-08-06T09:37:10.568Z - success: timeline loaded
+2018-08-06T09:37:10.568Z - normal: Loading builtin packages
+2018-08-06T09:37:10.573Z - success: asset-db-debugger loaded
+2018-08-06T09:37:10.574Z - success: color-picker loaded
+2018-08-06T09:37:10.579Z - success: package-manager loaded
+2018-08-06T09:37:10.580Z - success: qqplay-adapter loaded
+2018-08-06T09:37:10.587Z - success: sdkbox loaded
+2018-08-06T09:37:10.592Z - success: tester loaded
+2018-08-06T09:37:10.596Z - success: ui-kit-preview-extra loaded
+2018-08-06T09:37:10.600Z - success: ui-kit-preview loaded
+2018-08-06T09:37:10.604Z - success: ui-tree loaded
+2018-08-06T09:37:10.606Z - success: weapp-adapter loaded
+2018-08-06T09:37:11.624Z - normal: Initializing project /Users/mayc98/Downloads/2048_new
+2018-08-06T09:37:11.630Z - normal: Loading packages
+2018-08-06T09:37:11.634Z - normal: Watching packages
+2018-08-06T09:37:11.718Z - normal: Run Application
+2018-08-06T09:37:13.057Z - success: preview server running at http://localhost:7456
+2018-08-06T09:37:16.777Z - normal: 1.9.2
+2018-08-06T09:37:16.856Z - warn: The 'type' attribute of 'Container.grid' is undefined when loading script
+2018-08-06T09:52:24.412Z - info: shutdown preview server
